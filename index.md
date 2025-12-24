@@ -382,7 +382,7 @@ header.site-header a.site-title:hover {
   <div class="count">
     <img
       src="https://hitwebcounter.com/counter/counter.php?page=21465673&style=0006&nbdigits=6&type=page&initCount=0"
-      alt="Website view counter"
+      alt="Tổng số lượt xem"
     />
   </div>
 </div>
