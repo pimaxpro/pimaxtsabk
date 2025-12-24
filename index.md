@@ -353,3 +353,8 @@ header.site-header a.site-title:hover {
     Facebook
   </a>
 </div>
+<style>
+  .wrapper {
+    max-width: 1400px !important;
+  }
+</style>
