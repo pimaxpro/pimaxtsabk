@@ -5,27 +5,34 @@ layout: default
 
 
 <style>
-.year-section {
+.year-box {
   position: relative;
   max-width: 1100px;
-  margin: 80px auto;
-  padding: 60px 30px 30px;
-  background: #fff5f9;
-  border-radius: 26px;
-  border: 3px solid #e84d7a;
+  margin: 70px auto;
+  padding: 60px 30px 40px;
+  border: 4px solid #ec5b8c;
+  border-radius: 32px;
+  background: #fff7fa;
 }
 
+/* BOX "NĂM 2025" */
 .year-title {
-  width: fit-content;
-  margin: -70px auto 40px;
-  padding: 16px 46px;
-  background: linear-gradient(135deg, #DB3B6D, #E57195);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 14px 42px;
+  background: #ec5b8c; /* giữ nguyên màu như bạn đang dùng */
   color: white;
-  font-size: 34px;
+
+  font-size: 32px;
   font-weight: 900;
-  border-radius: 50px;
-  box-shadow: 0 12px 30px rgba(0,0,0,0.2);
-  text-align: center;
+  border-radius: 40px;
+  white-space: nowrap;
+
+  /* che đường viền đi qua chính giữa */
+  z-index: 2;
 }
   .contest-title-box {
   display: block;
@@ -255,7 +262,7 @@ header.site-header a.site-title:hover {
 </style>
 
 
-<div class="year-section">
+<div class="year-box">
   <div class="year-title">📆 NĂM 2025</div>
   
 <div class="stage">
