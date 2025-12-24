@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="{{ site.lang | default: 'vi' }}">
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
+
+  <!-- Load CSS của theme -->
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
 
   <!-- MathJax -->
   <script>
@@ -15,11 +18,25 @@
     };
   </script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-
-  {{ content_for_head }}
 </head>
 
 <body>
-  {{ content }}
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="wrapper">
+      <a class="site-title" href="{{ '/' | relative_url }}">
+        {{ site.title }}
+      </a>
+    </div>
+  </header>
+
+  <!-- CONTENT -->
+  <main class="page-content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </main>
+
 </body>
 </html>
