@@ -4,60 +4,6 @@ layout: default
 ---
 
 <style>
-.pimax-footer {
-  background: #d83b6a;
-  color: white;
-  padding: 50px 20px 20px;
-  font-family: Arial, sans-serif;
-}
-
-.footer-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 60px;
-  max-width: 900px;
-  margin: auto;
-}
-
-.footer-col h3 {
-  font-size: 20px;
-  margin-bottom: 18px;
-}
-
-.footer-col p {
-  margin: 10px 0;
-  font-size: 15px;
-}
-
-.social-icons {
-  display: flex;
-  gap: 18px;
-  margin-top: 10px;
-}
-
-.social-icons a {
-  background: white;
-  color: #d83b6a;
-  width: 46px;
-  height: 46px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 14px;
-  font-size: 24px;
-  text-decoration: none;
-}
-
-.footer-bottom {
-  border-top: 1px solid rgba(255,255,255,0.3);
-  margin-top: 40px;
-  padding-top: 20px;
-  text-align: center;
-  font-weight: bold;
-}
-</style>
-
-<style>
 header.site-header {
   background: linear-gradient(135deg, #DB3B6D, #E57195) !important;
   border-bottom: none !important;
@@ -218,34 +164,3 @@ header.site-header a.site-title:hover {
     Facebook
   </a>
 </div>
-
-
-<footer class="pimax-footer">
-  <div class="footer-container">
-
-    <!-- LIÊN HỆ -->
-    <div class="footer-col">
-      <h3>LIÊN HỆ</h3>
-      <p>✉️ dducpimax@gmail.com</p>
-      <p>📘 facebook.com/dd ucpimax1994</p>
-      <p>📍 Thụy Khuê, Hà Nội</p>
-      <p>📞 0358030143</p>
-    </div>
-
-    <!-- MẠNG XÃ HỘI -->
-    <div class="footer-col">
-      <h3>MẠNG XÃ HỘI</h3>
-      <div class="social-icons">
-        <a href="https://www.facebook.com/PimaXPro" target="_blank" rel="noopener">📘</a>
-        <a href="https://www.tiktok.com/@pimaxghettoan" target="_blank" rel="noopener">🎵</a>
-      </div>
-    </div>
-
-  </div>
-
-  <div class="footer-bottom">
-    <span>Ⓟ</span> BẢN QUYỀN THUỘC VỀ PIMAX
-  </div>
-</footer>
-
-
