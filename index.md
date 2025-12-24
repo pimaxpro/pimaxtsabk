@@ -5,6 +5,9 @@ layout: default
 
 
 <style>
+  .social-drive {
+  background: linear-gradient(135deg, #4285F4, #34A853, #FBBC05);
+  }
   .register-box {
   max-width: 900px;
   margin: 50px auto;
@@ -440,8 +443,7 @@ header.site-header a.site-title:hover {
     <i class="fa-solid fa-globe"></i>
   </a>
 
-  <!-- Google Drive -->
-  <a href="https://drive.google.com/drive/u/2/folders/1JP1dhqeJaR8ddZ8uVKL84s5GcJ9a5oPl"
+<a href="https://drive.google.com/drive/u/2/folders/1JP1dhqeJaR8ddZ8uVKL84s5GcJ9a5oPl"
    target="_blank"
    class="social-drive"
    aria-label="Google Drive">
