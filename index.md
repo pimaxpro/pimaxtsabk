@@ -302,6 +302,7 @@ header.site-header a.site-title:hover {
     </a>
   </div>
 </div>
+</div>
 
 <style>
 .social-box {
