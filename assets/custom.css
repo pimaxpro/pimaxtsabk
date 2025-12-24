@@ -1,23 +1,26 @@
-/* HEADER DÍNH KHI CUỘN – CÁCH CHẮC CHẮN */
-header.site-header {
+/* HEADER TỰ TẠO – LUÔN DÍNH */
+.fixed-header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 9999;
+  z-index: 10000;
 
   background: linear-gradient(135deg, #DB3B6D, #E57195);
+  padding: 16px 0;
+  text-align: center;
 }
 
-/* Căn giữa tiêu đề */
-header.site-header .wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 14px 0;
+/* TIÊU ĐỀ */
+.fixed-header .site-title {
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 1px;
 }
 
-/* ĐẨY NỘI DUNG XUỐNG – TRÁNH BỊ CHE */
-.page-content {
+/* ĐẨY TOÀN BỘ NỘI DUNG XUỐNG */
+body {
   padding-top: 90px;
 }
