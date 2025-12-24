@@ -5,7 +5,7 @@ layout: default
 
 <style>
 header.site-header {
-  background: linear-gradient(135deg, #ff7eb3, #ff758c) !important;
+  background: linear-gradient(135deg, #DB3B6D, #E57195) !important;
   border-bottom: none !important;
 }
 
