@@ -54,7 +54,7 @@ layout: default
   margin: 40px auto;
   padding: 30px 28px;
   background: #ffe6ef;
-  border-left: 8px solid #d83b6a;
+  border-top: 8px solid #d83b6a;
   border-radius: 0px;
   font-family: -apple-system, BlinkMacSystemFont,
                "Segoe UI", Arial,
