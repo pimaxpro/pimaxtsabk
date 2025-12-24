@@ -3,7 +3,9 @@ title: PimaX Pro
 layout: default
 ---
 
-.register-box {
+
+<style>
+  .register-box {
   max-width: 900px;
   margin: 50px auto;
   padding: 34px 32px;
@@ -49,9 +51,6 @@ layout: default
   box-shadow: 0 10px 24px rgba(216,59,106,0.45);
 }
 
-
-
-<style>
 .year-box {
   position: relative;
   max-width: 1100px;
