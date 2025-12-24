@@ -358,12 +358,3 @@ header.site-header a.site-title:hover {
     max-width: 1400px !important;
   }
 </style>
-<style>
-.contest-box,
-.stage,
-.week {
-  max-width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
