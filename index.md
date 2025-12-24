@@ -5,18 +5,22 @@ layout: default
 
 <style>
   .contest-title-box {
-  display: inline-block;
-  margin: -48px auto 30px;
-  padding: 14px 36px;
+  display: block;
+  width: fit-content;
+  margin: -20px auto 32px;   /* hạ box xuống + căn giữa */
+  padding: 14px 38px;
+
   background: #d83b6a;
   color: white;
   font-size: 26px;
   font-weight: 700;
   border-radius: 40px;
-  box-shadow: 0 10px 30px rgba(216, 59, 106, 0.4);
+
   text-align: center;
-}
-.contest-box {
+  box-shadow: 0 10px 30px rgba(216, 59, 106, 0.4);
+  }
+  
+  .contest-box {
   max-width: 900px;
   margin: 40px auto;
   padding: 30px 28px;
