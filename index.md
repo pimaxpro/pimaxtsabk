@@ -450,7 +450,6 @@ header.site-header a.site-title:hover {
    aria-label="Google Drive">
   <i class="fa-brands fa-google-drive"></i>
 </a>
-
 </div>
 
 <div class="view-box">
