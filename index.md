@@ -227,7 +227,7 @@ header.site-header a.site-title:hover {
 }
 
 .week {
-  background: #fff0f6;
+  background: #F9DFE8;
   border-left: 8px solid #ff5c8a;
   padding: 22px 26px;
   border-radius: 16px;
@@ -263,7 +263,7 @@ header.site-header a.site-title:hover {
 
 
 <div class="year-box">
-  <div class="year-title">📆 NĂM 2025</div>
+  <div class="year-title">📆 NĂM 2025 - 2026</div>
   
 <div class="stage">
   <h1>🏆 Chặng 1 – 2025 WINTER</h1>
