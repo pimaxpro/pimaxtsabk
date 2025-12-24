@@ -372,7 +372,7 @@ header.site-header a.site-title:hover {
   </a>
 
   <!-- Website -->
-  <a href="https://pimaxtsabk.github.io"
+  <a href="https://pimaxtsa.com"
      target="_blank"
      class="social-web"
      aria-label="Website">
