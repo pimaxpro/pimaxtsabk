@@ -3,12 +3,6 @@ title: PimaX Pro
 layout: default
 ---
 
-<div class="fixed-header">
-  <a href="https://pimaxpro.github.io/pimaxtsabk/" class="site-title">
-    PimaX TSABK Tournament
-  </a>
-</div>
-
 <style>
 .year-box {
   position: relative;
