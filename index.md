@@ -3,6 +3,8 @@ title: PimaX Pro
 layout: default
 ---
 
+<link rel="icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
+
 <style>
 header.site-header {
   background: linear-gradient(135deg, #DB3B6D, #E57195) !important;
