@@ -4,6 +4,136 @@ layout: default
 ---
 
 <style>
+.contest-box {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px 28px;
+  background: #ffe6ef;
+  border-left: 8px solid #d83b6a;
+  border-radius: 18px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.contest-box h2 {
+  text-align: center;
+  color: #d83b6a;
+  margin-bottom: 25px;
+  font-size: 28px;
+}
+
+.contest-box ol {
+  padding-left: 22px;
+}
+
+.contest-box li {
+  margin-bottom: 18px;
+}
+
+.contest-box ul {
+  margin-top: 8px;
+  padding-left: 20px;
+}
+
+.contest-box a {
+  color: #d83b6a;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contest-box a:hover {
+  text-decoration: underline;
+}
+
+.score-formula {
+  background: white;
+  padding: 10px 16px;
+  border-radius: 12px;
+  margin: 10px 0;
+  font-weight: bold;
+  text-align: center;
+  color: #d83b6a;
+}
+
+.reward-block {
+  background: #fff;
+  border-radius: 14px;
+  padding: 16px 20px;
+  margin-top: 10px;
+}
+
+.reward-block p {
+  margin-top: 12px;
+  font-weight: bold;
+}
+</style>
+<div class="contest-box">
+  <h2>📢 THỂ LỆ CUỘC THI</h2>
+
+  <ol>
+    <li>
+      <strong>Cấu trúc cuộc thi:</strong><br>
+      Cuộc thi bao gồm <strong>3 chặng</strong> tương ứng với 3 đợt thi chính:
+      <ul>
+        <li>Chặng 1 – <strong>Winter 2025</strong></li>
+        <li>Chặng 2 – <strong>Spring 2026</strong></li>
+        <li>Chặng 3 – <strong>Summer 2026</strong></li>
+      </ul>
+    </li>
+
+    <li>
+      <strong>Lịch thi hàng tuần:</strong><br>
+      Mỗi tuần thí sinh làm <strong>2 bài test</strong>:
+      <ul>
+        <li>
+          <strong>Bài thi 1:</strong> 40 câu / 60 phút (40 điểm), cấu trúc TSA, 
+          diễn ra vào <strong>thứ 2 hàng tuần</strong>.
+        </li>
+        <li>
+          <strong>Bài thi 2:</strong> 10 câu / 30 phút (10 điểm), chủ yếu là bài toán khó,
+          diễn ra vào <strong>thứ 6 hàng tuần</strong>.
+        </li>
+      </ul>
+      👉 Lưu ý: Thí sinh cần đăng kí tài khoản trước tại 
+      <a href="https://pimaxtsa.com" target="_blank" rel="noopener">pimaxtsa.com</a>.
+    </li>
+
+    <li>
+      <strong>Cách tính điểm:</strong><br>
+      Điểm mỗi tuần được tính theo công thức:
+      <div class="score-formula">
+        Điểm tuần = Điểm bài 1 + 1.5 × Điểm bài 2
+      </div>
+      Điểm của mỗi chặng là <strong>trung bình cộng điểm các tuần</strong> trong chặng đó.
+    </li>
+
+    <li>
+      <strong>Phần thưởng:</strong>
+
+      <div class="reward-block">
+        <p><strong>a) Phần thưởng sau mỗi chặng (Top 3):</strong></p>
+        <ul>
+          <li>🏆 <strong>Nhà vô địch:</strong> 1.000.000 VNĐ + Khóa học toàn diện PimaX</li>
+          <li>🥈🥉 <strong>Hai á quân:</strong> mỗi người 500.000 VNĐ + Khóa học toàn diện PimaX</li>
+        </ul>
+
+        <p><strong>b) Phần thưởng hàng tuần (Top 10):</strong></p>
+        <ul>
+          <li>
+            ⭐ <strong>Top 2:</strong> 100.000 VNĐ + 10 đề TSA kèm video chữa + giảm 40% học phí
+          </li>
+          <li>
+            🎯 <strong>Top 8 còn lại:</strong> 5 đề TSA kèm video chữa + giảm 30% học phí
+          </li>
+        </ul>
+      </div>
+    </li>
+  </ol>
+</div>
+
+
+<style>
 header.site-header {
   background: linear-gradient(135deg, #DB3B6D, #E57195) !important;
   border-bottom: none !important;
