@@ -78,6 +78,49 @@ header.site-header a.site-title:hover {
 }
 </style>
 
+<div style="
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  margin: 18px 0 32px 0;
+">
+  <a href="https://www.tiktok.com/@pimaxghettoan"
+     target="_blank" rel="noopener"
+     style="
+       display: flex;
+       align-items: center;
+       gap: 8px;
+       background: #000;
+       color: white;
+       padding: 10px 18px;
+       border-radius: 30px;
+       font-weight: 700;
+       text-decoration: none;
+       font-size: 16px;
+     ">
+    <span style="font-size:20px;">🎵</span>
+    TikTok
+  </a>
+
+  <a href="https://www.facebook.com/PimaXPro"
+     target="_blank" rel="noopener"
+     style="
+       display: flex;
+       align-items: center;
+       gap: 8px;
+       background: #1877F2;
+       color: white;
+       padding: 10px 18px;
+       border-radius: 30px;
+       font-weight: 700;
+       text-decoration: none;
+       font-size: 16px;
+     ">
+    <span style="font-size:20px;">📘</span>
+    Facebook
+  </a>
+</div>
+
 <div class="stage">
   <h1>🏆 Chặng 1 – 2025 WINTER</h1>
   <p> Một dự án dành cho các em học sinh cấp 3 hướng tới kì thi TSABK </p>
