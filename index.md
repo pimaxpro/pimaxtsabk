@@ -357,4 +357,7 @@ header.site-header a.site-title:hover {
   .wrapper {
     max-width: 1400px !important;
   }
+  header.site-header .wrapper {
+  justify-content: center;
+}
 </style>
