@@ -11,7 +11,12 @@ layout: default
   background: #ffe6ef;
   border-left: 8px solid #d83b6a;
   border-radius: 18px;
-  font-family: Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Arial,
+               "Helvetica Neue",
+               "Noto Sans",
+               "Liberation Sans",
+               sans-serif;
   color: #333;
   line-height: 1.6;
 }
