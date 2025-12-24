@@ -11,7 +11,6 @@ layout: default
   padding: 34px 32px;
 
   background: linear-gradient(135deg, #ffe6ef, #fff0f6);
-  border-left: 8px solid #d83b6a;
   border-radius: 20px;
 
   text-align: center;
@@ -312,7 +311,7 @@ header.site-header a.site-title:hover {
   <h2>📝 ĐĂNG KÝ THAM GIA CUỘC THI</h2>
   <p>
     Thí sinh vui lòng đăng ký tài khoản và điền form trước khi tham gia
-    các bài thi chính thức của PimaX TSABK Tournament.
+    các bài thi chính thức của PimaX TSABK Tournament. Thời gian đăng kí: Hết ngày 28/12/2025
   </p>
 
   <a href="https://docs.google.com/forms/d/1BGeWoQaCTOCkviJb8fbQ1kxnebybMEDUlZjp3HUO9ks/edit"
