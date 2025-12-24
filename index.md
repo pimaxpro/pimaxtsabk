@@ -3,7 +3,29 @@ title: PimaX Pro
 layout: default
 ---
 
+
 <style>
+  .year-section {
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 40px 30px 20px;
+  background: #fff5f9;
+  border-radius: 26px;
+  border: 3px dashed #e84d7a;
+}
+
+.year-title {
+  width: fit-content;
+  margin: -70px auto 40px;
+  padding: 16px 46px;
+  background: linear-gradient(135deg, #DB3B6D, #E57195);
+  color: white;
+  font-size: 34px;
+  font-weight: 900;
+  border-radius: 50px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+  text-align: center;
+}
   .contest-title-box {
   display: block;
   width: fit-content;
@@ -230,6 +252,11 @@ header.site-header a.site-title:hover {
   text-decoration: underline;
 }
 </style>
+
+
+<div class="year-section">
+  <div class="year-title">📆 NĂM 2025</div>
+  
 <div class="stage">
   <h1>🏆 Chặng 1 – 2025 WINTER</h1>
   <p> Một dự án dành cho các em học sinh cấp 3 hướng tới kì thi TSABK </p>
@@ -269,6 +296,7 @@ header.site-header a.site-title:hover {
   </div>
 </div>
 
+</div>
 <div style="
   display: flex;
   justify-content: center;
