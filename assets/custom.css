@@ -1,0 +1,10 @@
+/* Căn giữa tiêu đề web */
+header.site-header .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header.site-header a.site-title {
+  margin: 0;
+}
