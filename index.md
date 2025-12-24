@@ -277,10 +277,10 @@ header.site-header a.site-title:hover {
 
 .week {
   background: #F9DFE8;
-  border-left: 8px solid #ff5c8a;
   padding: 22px 26px;
   border-radius: 16px;
   margin-bottom: 32px;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.18);
 }
 
 .week h2 {
