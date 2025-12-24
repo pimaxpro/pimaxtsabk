@@ -369,25 +369,6 @@ header.site-header a.site-title:hover {
 </div>
 </div>
 
-<div class="view-box">
-  <div class="left">
-    <div class="icon">👁️</div>
-    <div>
-      <h3>Lượt truy cập website</h3>
-      <p>Tổng số lượt xem trang</p>
-    </div>
-  </div>
-
-  <!-- Bộ đếm lượt xem -->
-  <div class="count">
-    <img
-      src="https://hitwebcounter.com/counter/counter.php?page=21465673&style=0006&nbdigits=6&type=page&initCount=0"
-      alt="Tổng số lượt xem"
-    />
-  </div>
-</div>
-
-
 <style>
 .social-box {
   max-width: 900px;
@@ -472,6 +453,23 @@ header.site-header a.site-title:hover {
 
 </div>
 
+<div class="view-box">
+  <div class="left">
+    <div class="icon">👁️</div>
+    <div>
+      <h3>Lượt truy cập website</h3>
+      <p>Tổng số lượt xem trang</p>
+    </div>
+  </div>
+
+  <!-- Bộ đếm lượt xem -->
+  <div class="count">
+    <img
+      src="https://hitwebcounter.com/counter/counter.php?page=21465673&style=0006&nbdigits=6&type=page&initCount=0"
+      alt="Tổng số lượt xem"
+    />
+  </div>
+</div>
 
 
 <style>
