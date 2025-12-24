@@ -1,24 +1,23 @@
-/* Căn giữa tiêu đề web */
+/* HEADER DÍNH KHI CUỘN – CÁCH CHẮC CHẮN */
+header.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+
+  background: linear-gradient(135deg, #DB3B6D, #E57195);
+}
+
+/* Căn giữa tiêu đề */
 header.site-header .wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 14px 0;
 }
 
-header.site-header a.site-title {
-  margin: 0;
-}
-/* Sticky header */
-header.site-header {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-
-  /* giữ nền khi cuộn */
-  background: linear-gradient(135deg, #DB3B6D, #E57195);
-}
-
-/* tránh chữ bị dính sát */
-header.site-header .wrapper {
-  padding: 16px 0;
+/* ĐẨY NỘI DUNG XUỐNG – TRÁNH BỊ CHE */
+.page-content {
+  padding-top: 90px;
 }
