@@ -82,7 +82,6 @@ layout: default
       Bảng xếp hạng
     </a>
   </div>
-</div>
 
   <div class="item">
     📄 <a href="https://drive.google.com/file/d/1YYJmNPRncCEiXGx31lsOFcATeE_KYcY_/view?usp=drive_link" target="_blank" rel="noopener">
