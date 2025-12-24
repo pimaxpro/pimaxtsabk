@@ -446,7 +446,8 @@ header.site-header a.site-title:hover {
    class="social-drive"
    aria-label="Google Drive">
   <i class="fa-brands fa-google-drive"></i>
-  </a>
+</a>
+
 </div>
 
 
