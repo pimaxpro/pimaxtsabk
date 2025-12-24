@@ -286,6 +286,7 @@ header.site-header a.site-title:hover {
 .week h2 {
   color: #d6336c;
   font-size: 30px;
+  font-weight: 800;
   margin-top: 0;
 }
 
