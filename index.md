@@ -1,5 +1,5 @@
 ---
-title: Cuộc thi Toán học
+title: PimaX Pro
 layout: default
 ---
 
@@ -8,7 +8,7 @@ layout: default
 </style>
 
 <div style="
-  background: linear-gradient(135deg, #ff7eb3, #ff758c);
+  background: linear-gradient(135deg, #DB3B6D, #E57195);
   padding: 22px;
   text-align: center;
   border-radius: 0 0 24px 24px;
