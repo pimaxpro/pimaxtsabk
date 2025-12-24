@@ -361,7 +361,5 @@ header.site-header a.site-title:hover {
 .contest-box,
 .stage,
 .week {
-  max-width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 100%;
 }
