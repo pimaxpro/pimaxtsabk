@@ -271,7 +271,7 @@ header.site-header a.site-title:hover {
 </div>
 
 <div class="week">
-  <h2>📅 Tuần 1 $a^2 + b^2 = c^2$</h2>
+  <h2>📅 Tuần 1</h2>
 
   <div class="item">
     📄 <a href="https://drive.google.com/file/d/1H2CbP2u8Hlc3arnnkYC01jx4E8Mk-o1K/view?usp=drive_link" target="_blank" rel="noopener">
