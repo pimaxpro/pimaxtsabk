@@ -14,6 +14,7 @@
   padding: 26px 30px;
 
   background: linear-gradient(135deg, #fff0f6, #ffe6ef);
+  border-left: 8px solid #d83b6a;
   border-radius: 20px;
 
   display: flex;
@@ -52,4 +53,3 @@
   font-weight: 900;
   color: #333;
 }
-
