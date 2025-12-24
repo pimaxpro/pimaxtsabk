@@ -61,7 +61,7 @@ layout: default
 
 <div class="stage">
   <h1>🏆 Chặng 1 – 2025 WINTER</h1>
-  <p>Thử thách · Tư duy · Sáng tạo</p>
+  <p> Một dự án dành cho các em học sinh cấp 3 hướng tới kì thi TSABK </p>
 </div>
 
 <div class="week">
