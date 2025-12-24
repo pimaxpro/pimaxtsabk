@@ -217,6 +217,7 @@ header.site-header a.site-title:hover {
 
 .stage h1 {
   font-size: 44px;
+  font-weight: 900;
   margin: 0;
 }
 
