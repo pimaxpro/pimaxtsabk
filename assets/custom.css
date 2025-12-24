@@ -8,65 +8,48 @@
   font-weight: 700;
   font-size: 28px;
 }
-.view-box-pro {
+.view-box {
   max-width: 900px;
-  margin: 50px auto;
-  padding: 34px 36px;
+  margin: 40px auto;
+  padding: 26px 30px;
 
-  background: rgba(255, 240, 246, 0.75);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-
-  border-radius: 26px;
-  border: 1px solid rgba(216, 59, 106, 0.25);
-  box-shadow: 0 20px 40px rgba(216, 59, 106, 0.25);
-
-  position: relative;
-  text-align: center;
-}
-
-/* Badge LIVE */
-.view-box-pro .badge {
-  position: absolute;
-  top: -14px;
-  left: 50%;
-  transform: translateX(-50%);
-
-  background: #d83b6a;
-  color: white;
-  padding: 6px 18px;
+  background: linear-gradient(135deg, #fff0f6, #ffe6ef);
   border-radius: 20px;
 
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
 }
 
-/* Icon */
-.view-box-pro .icon {
-  font-size: 46px;
-  margin-bottom: 10px;
+.view-box .left {
+  display: flex;
+  align-items: center;
+  gap: 18px;
 }
 
-/* Tiêu đề */
-.view-box-pro h3 {
-  margin: 6px 0 14px;
+.view-box .icon {
+  font-size: 44px;
+}
+
+.view-box h3 {
+  margin: 0;
   font-size: 26px;
-  font-weight: 900;
   color: #d83b6a;
+  font-weight: 900;
 }
 
-/* Số lượt xem */
-.view-box-pro .count {
-  font-size: 48px;
+.view-box p {
+  margin: 4px 0 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.view-box .count {
+  font-size: 34px;
   font-weight: 900;
   color: #333;
-  margin-top: 8px;
 }
 
-/* Chữ nhỏ */
-.view-box-pro .note {
-  margin-top: 10px;
-  font-size: 14px;
-  color: #666;
-}
