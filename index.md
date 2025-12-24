@@ -2,8 +2,23 @@
 title: Cuộc thi Toán học
 layout: default
 ---
-
 <style>
+.site-header {
+  background: linear-gradient(135deg, #ff7eb3, #ff758c);
+  border-bottom: none;
+}
+
+.site-title {
+  color: white !important;
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.site-title:hover {
+  text-decoration: none;
+  color: #fff0f6 !important;
+}
 .stage {
   background: linear-gradient(135deg, #DB3B6D, #E57195);
   color: white;
@@ -84,7 +99,7 @@ layout: default
 
   <div class="item">
     📄 <a href="https://drive.google.com/file/d/1YYJmNPRncCEiXGx31lsOFcATeE_KYcY_/view?usp=drive_link" target="_blank" rel="noopener">
-      Bài thi số 2
+      Bài thi số 1
     </a>
     &nbsp; | ✍️ <a href="https://drive.google.com/file/d/1hzCNKgNaPXclUZ_OWSsFxd_fhjlfcz9j/view?usp=drive_link" target="_blank" rel="noopener">
       File viết tay
