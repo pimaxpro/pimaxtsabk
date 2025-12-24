@@ -5,7 +5,7 @@ layout: default
 
 <style>
 .stage {
-  background: linear-gradient(135deg, #ff7eb3, #ff758c);
+  background: linear-gradient(135deg, #DB3B6D, #E57195);
   color: white;
   padding: 32px;
   border-radius: 20px;
