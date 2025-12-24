@@ -4,6 +4,18 @@ layout: default
 ---
 
 <style>
+  .contest-title-box {
+  display: inline-block;
+  margin: -48px auto 30px;
+  padding: 14px 36px;
+  background: #d83b6a;
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+  border-radius: 40px;
+  box-shadow: 0 10px 30px rgba(216, 59, 106, 0.4);
+  text-align: center;
+}
 .contest-box {
   max-width: 900px;
   margin: 40px auto;
@@ -74,7 +86,9 @@ layout: default
 }
 </style>
 <div class="contest-box">
-  <h2>📢 THỂ LỆ CUỘC THI</h2>
+  <div class="contest-title-box">
+  📢 THỂ LỆ CUỘC THI
+  </div>
 
   <ol>
     <li>
