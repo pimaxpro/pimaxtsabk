@@ -3,6 +3,54 @@ title: PimaX Pro
 layout: default
 ---
 
+.register-box {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 34px 32px;
+
+  background: linear-gradient(135deg, #ffe6ef, #fff0f6);
+  border-left: 8px solid #d83b6a;
+  border-radius: 20px;
+
+  text-align: center;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+}
+
+.register-box h2 {
+  margin-top: 0;
+  color: #d83b6a;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.register-box p {
+  font-size: 18px;
+  margin: 16px 0 28px;
+  color: #333;
+}
+
+.register-box a {
+  display: inline-block;
+  padding: 14px 34px;
+
+  background: #d83b6a;
+  color: white;
+  border-radius: 40px;
+
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.register-box a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(216,59,106,0.45);
+}
+
+
+
 <style>
 .year-box {
   position: relative;
@@ -260,6 +308,20 @@ header.site-header a.site-title:hover {
   text-decoration: underline;
 }
 </style>
+
+<div class="register-box">
+  <h2>📝 ĐĂNG KÝ THAM GIA CUỘC THI</h2>
+  <p>
+    Thí sinh vui lòng đăng ký tài khoản và điền form trước khi tham gia
+    các bài thi chính thức của PimaX TSABK Tournament.
+  </p>
+
+  <a href="https://docs.google.com/forms/d/1BGeWoQaCTOCkviJb8fbQ1kxnebybMEDUlZjp3HUO9ks/edit"
+     target="_blank"
+     rel="noopener">
+    👉 ĐI TỚI FORM ĐĂNG KÝ
+  </a>
+</div>
 
 
 <div class="year-box">
