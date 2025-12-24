@@ -306,7 +306,7 @@ header.site-header a.site-title:hover {
 
 <style>
 .social-box {
-  max-width: 520px;
+  max-width: 900px;
   margin: 40px auto;
   padding: 22px 28px;
 
