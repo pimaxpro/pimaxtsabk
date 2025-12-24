@@ -7,7 +7,7 @@ layout: default
   .contest-title-box {
   display: block;
   width: fit-content;
-  margin: -20px auto 32px;   /* hạ box xuống + căn giữa */
+  margin: 0px auto 32px;   /* hạ box xuống + căn giữa */
   padding: 14px 38px;
 
   background: #d83b6a;
