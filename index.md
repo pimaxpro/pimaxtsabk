@@ -439,6 +439,14 @@ header.site-header a.site-title:hover {
      aria-label="Website">
     <i class="fa-solid fa-globe"></i>
   </a>
+
+  <!-- Google Drive -->
+  <a href="https://drive.google.com/drive/u/2/folders/1JP1dhqeJaR8ddZ8uVKL84s5GcJ9a5oPl"
+   target="_blank"
+   class="social-drive"
+   aria-label="Google Drive">
+  <i class="fa-brands fa-google-drive"></i>
+  </a>
 </div>
 
 
