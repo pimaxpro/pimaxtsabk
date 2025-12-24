@@ -40,12 +40,12 @@ layout: default
 
 .item {
   background: white;
-  padding: 16px 22px;
+  padding: 18px 22px;
   border-radius: 14px;
-  margin: 14px 0;
+  margin: 16px 0;
   box-shadow: 0 4px 14px rgba(0,0,0,0.10);
   font-size: 18px;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 .item a {
@@ -68,53 +68,29 @@ layout: default
   <h2>📅 Tuần 1</h2>
 
   <div class="item">
-    📄 <a href="https://example.com/bai-thi-tuan1-so1.pdf" target="_blank" rel="noopener">
-      Bài thi số 1
+    📄 <a href="https://drive.google.com/file/d/1H2CbP2u8Hlc3arnnkYC01jx4E8Mk-o1K/view?usp=drive_link" target="_blank" rel="noopener">
+      Đề PMXSP-15
     </a>
-    &nbsp; | 🎥 <a href="https://youtube.com/example1" target="_blank" rel="noopener">
+    &nbsp; | ✍️ <a href="https://drive.google.com/file/d/1zEZQXB8WeTGvMpizUxK__h1Wg4whcP17/view?usp=drive_link" target="_blank" rel="noopener">
+      File viết tay
+    </a>
+    <br/>
+    🎥 <a href="https://drive.google.com/file/d/1u2dE0N0Ay4g0ylwstJg4l6T_j_s3eHJ5/view?usp=drive_link" target="_blank" rel="noopener">
       Video giải
-    </a>
-    &nbsp; | 📊 <a href="https://example.com/rank-tuan1-so1.html" target="_blank" rel="noopener">
-      Bảng xếp hạng
-    </a>
   </div>
 
   <div class="item">
-    📄 <a href="https://example.com/bai-thi-tuan1-so2.pdf" target="_blank" rel="noopener">
+    📄 <a href="https://drive.google.com/file/d/1YYJmNPRncCEiXGx31lsOFcATeE_KYcY_/view?usp=drive_link" target="_blank" rel="noopener">
       Bài thi số 2
     </a>
-    &nbsp; | 🎥 <a href="https://youtube.com/example2" target="_blank" rel="noopener">
+    &nbsp; | ✍️ <a href="https://drive.google.com/file/d/1hzCNKgNaPXclUZ_OWSsFxd_fhjlfcz9j/view?usp=drive_link" target="_blank" rel="noopener">
+      File viết tay
+    </a>
+    <br/>
+    🎥 <a href="https://drive.google.com/file/d/1N0Iildna80-oA_f18lFmUOcZfVnUu-8k/view?usp=drive_link" target="_blank" rel="noopener">
       Video giải
     </a>
-    &nbsp; | 📊 <a href="https://example.com/rank-tuan1-so2.html" target="_blank" rel="noopener">
-      Bảng xếp hạng
-    </a>
-  </div>
-</div>
-
-<div class="week">
-  <h2>📅 Tuần 2</h2>
-
-  <div class="item">
-    📄 <a href="https://example.com/bai-thi-tuan2-so1.pdf" target="_blank" rel="noopener">
-      Bài thi số 1
-    </a>
-    &nbsp; | 🎥 <a href="https://youtube.com/example3" target="_blank" rel="noopener">
-      Video giải
-    </a>
-    &nbsp; | 📊 <a href="https://example.com/rank-tuan2-so1.html" target="_blank" rel="noopener">
-      Bảng xếp hạng
-    </a>
-  </div>
-
-  <div class="item">
-    📄 <a href="https://example.com/bai-thi-tuan2-so2.pdf" target="_blank" rel="noopener">
-      Bài thi số 2
-    </a>
-    &nbsp; | 🎥 <a href="https://youtube.com/example4" target="_blank" rel="noopener">
-      Video giải
-    </a>
-    &nbsp; | 📊 <a href="https://example.com/rank-tuan2-so2.html" target="_blank" rel="noopener">
+    &nbsp; | 📊 <a href="https://docs.google.com/spreadsheets/d/1vtfoBgg8D5AyoK7CHxDtbjKM93db-22E/edit?usp=drive_link&ouid=113352121122805653305&rtpof=true&sd=true" target="_blank" rel="noopener">
       Bảng xếp hạng
     </a>
   </div>
