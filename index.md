@@ -4,26 +4,23 @@ layout: default
 ---
 
 <style>
-.site-header { display: none; }
-</style>
+header.site-header {
+  background: linear-gradient(135deg, #ff7eb3, #ff758c) !important;
+  border-bottom: none !important;
+}
 
-<div style="
-  background: linear-gradient(135deg, #DB3B6D, #E57195);
-  padding: 22px;
-  text-align: center;
-  border-radius: 0 0 24px 24px;
-  margin-bottom: 30px;
-">
-  <a href="{{ site.baseurl }}/" style="
-    color: white;
-    font-size: 32px;
-    font-weight: 900;
-    text-decoration: none;
-    letter-spacing: 1px;
-  ">
-    🏆 PIMAX TSA BK
-  </a>
-</div>
+header.site-header a.site-title {
+  color: white !important;
+  font-size: 30px !important;
+  font-weight: 900 !important;
+  letter-spacing: 1px;
+}
+
+header.site-header a.site-title:hover {
+  text-decoration: none;
+  color: #fff0f6 !important;
+}
+</style>
 
 <style>
 .stage {
