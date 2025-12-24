@@ -6,7 +6,7 @@ layout: default
 
 <style>
   .social-drive {
-  background: linear-gradient(135deg, #4285F4, #34A853, #FBBC05);
+  background: linear-gradient(135deg, #ffe6ef, #fff0f6);
   }
   .register-box {
   max-width: 900px;
