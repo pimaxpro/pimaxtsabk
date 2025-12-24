@@ -8,3 +8,17 @@ header.site-header .wrapper {
 header.site-header a.site-title {
   margin: 0;
 }
+/* Sticky header */
+header.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  /* giữ nền khi cuộn */
+  background: linear-gradient(135deg, #DB3B6D, #E57195);
+}
+
+/* tránh chữ bị dính sát */
+header.site-header .wrapper {
+  padding: 16px 0;
+}
