@@ -5,13 +5,14 @@ layout: default
 
 
 <style>
-  .year-section {
+.year-section {
+  position: relative;
   max-width: 1100px;
-  margin: 60px auto;
-  padding: 40px 30px 20px;
+  margin: 80px auto;
+  padding: 60px 30px 30px;
   background: #fff5f9;
   border-radius: 26px;
-  border: 3px dashed #e84d7a;
+  border: 3px solid #e84d7a;
 }
 
 .year-title {
