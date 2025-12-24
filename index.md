@@ -60,7 +60,7 @@ layout: default
 </style>
 
 <div class="stage">
-  <h1>🏆 Chặng 1 – Cuộc thi Toán học</h1>
+  <h1>🏆 Chặng 1 – 2025 WINTER</h1>
   <p>Thử thách · Tư duy · Sáng tạo</p>
 </div>
 
@@ -77,6 +77,10 @@ layout: default
     <br/>
     🎥 <a href="https://drive.google.com/file/d/1u2dE0N0Ay4g0ylwstJg4l6T_j_s3eHJ5/view?usp=drive_link" target="_blank" rel="noopener">
       Video giải
+       </a>
+    &nbsp; | 📊 <a href="https://docs.google.com/spreadsheets/d/1vtfoBgg8D5AyoK7CHxDtbjKM93db-22E/edit?usp=drive_link&ouid=113352121122805653305&rtpof=true&sd=true" target="_blank" rel="noopener">
+      Bảng xếp hạng
+    </a>
   </div>
 </div>
 
