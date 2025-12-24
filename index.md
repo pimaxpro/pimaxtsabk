@@ -2,23 +2,27 @@
 title: Cuộc thi Toán học
 layout: default
 ---
+
 <style>
-.site-header {
-  background: linear-gradient(135deg, #ff7eb3, #ff758c);
-  border-bottom: none;
+header.site-header {
+  background: linear-gradient(135deg, #ff7eb3, #ff758c) !important;
+  border-bottom: none !important;
 }
 
-.site-title {
+header.site-header a.site-title {
   color: white !important;
-  font-size: 28px;
-  font-weight: 800;
+  font-size: 30px !important;
+  font-weight: 900 !important;
   letter-spacing: 1px;
 }
 
-.site-title:hover {
+header.site-header a.site-title:hover {
   text-decoration: none;
   color: #fff0f6 !important;
 }
+</style>
+
+<style>
 .stage {
   background: linear-gradient(135deg, #DB3B6D, #E57195);
   color: white;
