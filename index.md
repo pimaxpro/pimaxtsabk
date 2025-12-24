@@ -16,16 +16,19 @@ layout: default
 }
 
 .year-title {
-  width: fit-content;
-  margin: -70px auto 40px;
-  padding: 16px 46px;
-  background: linear-gradient(135deg, #DB3B6D, #E57195);
-  color: white;
-  font-size: 34px;
+  position: absolute;
+  top: -24px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  padding: 10px 36px;
+  background: #fff5f9; /* CÙNG MÀU BOX → cắt viền */
+  color: #d83b6a;
+
+  font-size: 32px;
   font-weight: 900;
-  border-radius: 50px;
-  box-shadow: 0 12px 30px rgba(0,0,0,0.2);
-  text-align: center;
+  border-radius: 40px;
+  white-space: nowrap;
 }
   .contest-title-box {
   display: block;
