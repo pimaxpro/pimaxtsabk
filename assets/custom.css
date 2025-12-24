@@ -1,9 +1,10 @@
-header.site-header .wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+.site-title,
+.site-title:visited {
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
 
-header.site-header a.site-title {
-  margin: 0;
+  font-weight: 700;
+  font-size: 28px;
 }
