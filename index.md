@@ -78,6 +78,7 @@ layout: default
     🎥 <a href="https://drive.google.com/file/d/1u2dE0N0Ay4g0ylwstJg4l6T_j_s3eHJ5/view?usp=drive_link" target="_blank" rel="noopener">
       Video giải
   </div>
+</div>
 
   <div class="item">
     📄 <a href="https://drive.google.com/file/d/1YYJmNPRncCEiXGx31lsOFcATeE_KYcY_/view?usp=drive_link" target="_blank" rel="noopener">
