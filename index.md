@@ -61,7 +61,7 @@ layout: default
    color: white;
    font-size: 32px;
    font-weight: 900;
-   border-radius: 40px;
+   border-radius: 20px;
    white-space: nowrap;
    /* che đường viền đi qua chính giữa */
    z-index: 2;
@@ -75,7 +75,7 @@ layout: default
    color: white;
    font-size: 26px;
    font-weight: 700;
-   border-radius: 40px;
+   border-radius: 20px;
    text-align: center;
    box-shadow: 0 10px 30px rgba(216, 59, 106, 0.4);
    }
