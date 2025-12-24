@@ -76,50 +76,58 @@ header.site-header a.site-title:hover {
 .item a:hover {
   text-decoration: underline;
 }
-</style>
 
+</style>
 <div style="
   display: flex;
   justify-content: center;
   gap: 22px;
   margin: 18px 0 32px 0;
+  flex-wrap: wrap;
 ">
+  <!-- TikTok -->
   <a href="https://www.tiktok.com/@pimaxghettoan"
      target="_blank" rel="noopener"
      style="
        display: flex;
        align-items: center;
-       gap: 8px;
+       gap: 10px;
        background: #000;
        color: white;
-       padding: 10px 18px;
+       padding: 10px 20px;
        border-radius: 30px;
        font-weight: 700;
        text-decoration: none;
        font-size: 16px;
      ">
-    <span style="font-size:20px;">🎵</span>
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="white" aria-hidden="true">
+      <path d="M21 8.5c-1.9 0-3.7-.6-5.2-1.7v8.4a6.2 6.2 0 1 1-6.2-6.2c.4 0 .8 0 .1.2.1v3.4a2.8 2.8 0 1 0 2.8 2.8V2h3.4c.2 1.9 1.2 3.6 2.8 4.6A8.4 8.4 0 0 0 21 7.1v1.4z"/>
+    </svg>
     TikTok
   </a>
 
+  <!-- Facebook -->
   <a href="https://www.facebook.com/PimaXPro"
      target="_blank" rel="noopener"
      style="
        display: flex;
        align-items: center;
-       gap: 8px;
+       gap: 10px;
        background: #1877F2;
        color: white;
-       padding: 10px 18px;
+       padding: 10px 20px;
        border-radius: 30px;
        font-weight: 700;
        text-decoration: none;
        font-size: 16px;
      ">
-    <span style="font-size:20px;">📘</span>
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="white" aria-hidden="true">
+      <path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.3.2 2.3.2v2.5h-1.3c-1.3 0-1.7.8-1.7 1.6V12h2.9l-.5 2.9h-2.4v7A10 10 0 0 0 22 12z"/>
+    </svg>
     Facebook
   </a>
 </div>
+
 
 <div class="stage">
   <h1>🏆 Chặng 1 – 2025 WINTER</h1>
