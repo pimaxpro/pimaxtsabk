@@ -74,7 +74,6 @@ layout: default
     &nbsp; | ✍️ <a href="https://drive.google.com/file/d/1zEZQXB8WeTGvMpizUxK__h1Wg4whcP17/view?usp=drive_link" target="_blank" rel="noopener">
       File viết tay
     </a>
-    <br/>
     🎥 <a href="https://drive.google.com/file/d/1u2dE0N0Ay4g0ylwstJg4l6T_j_s3eHJ5/view?usp=drive_link" target="_blank" rel="noopener">
       Video giải
        </a>
@@ -90,7 +89,6 @@ layout: default
     &nbsp; | ✍️ <a href="https://drive.google.com/file/d/1hzCNKgNaPXclUZ_OWSsFxd_fhjlfcz9j/view?usp=drive_link" target="_blank" rel="noopener">
       File viết tay
     </a>
-    <br/>
     🎥 <a href="https://drive.google.com/file/d/1N0Iildna80-oA_f18lFmUOcZfVnUu-8k/view?usp=drive_link" target="_blank" rel="noopener">
       Video giải
     </a>
