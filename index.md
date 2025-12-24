@@ -303,55 +303,84 @@ header.site-header a.site-title:hover {
   </div>
 </div>
 
-</div>
-<div style="
+<style>
+.social-box {
+  max-width: 520px;
+  margin: 40px auto;
+  padding: 22px 28px;
+
+  background: #ffffff;
+  border-radius: 22px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+
   display: flex;
   justify-content: center;
-  gap: 22px;
-  margin: 18px 0 32px 0;
-  flex-wrap: wrap;
-">
- <a href="https://www.tiktok.com/@pimaxghettoan"
-   target="_blank" rel="noopener"
-   style="
-     display: flex;
-     align-items: center;
-     gap: 10px;
-     background: #000;
-     color: white;
-     padding: 10px 20px;
-     border-radius: 30px;
-     font-weight: 700;
-     text-decoration: none;
-     font-size: 16px;
-   ">
-  <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
-    <path fill="white" d="M16.7 5.3c1.2.9 2.7 1.4 4.3 1.4V9c-1.7 0-3.4-.5-4.9-1.4v6.1a5.1 5.1 0 1 1-5.1-5.1c.4 0 .7 0 1 .1v2.7a2.4 2.4 0 1 0 2.4 2.4V2h2.3c.2 1.3.9 2.5 2 3.3z"/>
-  </svg>
-  TikTok
-</a>
+  gap: 26px;
+}
+
+.social-box a {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 28px;
+  color: white;
+  text-decoration: none;
+
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.social-box a:hover {
+  transform: translateY(-4px) scale(1.08);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.25);
+}
+
+/* Màu từng mạng xã hội */
+.social-tiktok {
+  background: #000000;
+}
+
+.social-facebook {
+  background: #1877f2;
+}
+
+.social-web {
+  background: linear-gradient(135deg, #d83b6a, #ff7aa2);
+}
+</style>
+
+<div class="social-box">
+  <!-- TikTok -->
+  <a href="https://www.tiktok.com/@pimaxghettoan"
+     target="_blank"
+     class="social-tiktok"
+     aria-label="TikTok">
+    <i class="fa-brands fa-tiktok"></i>
+  </a>
 
   <!-- Facebook -->
   <a href="https://www.facebook.com/PimaXPro"
-     target="_blank" rel="noopener"
-     style="
-       display: flex;
-       align-items: center;
-       gap: 10px;
-       background: #1877F2;
-       color: white;
-       padding: 10px 20px;
-       border-radius: 30px;
-       font-weight: 700;
-       text-decoration: none;
-       font-size: 16px;
-     ">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="white" aria-hidden="true">
-      <path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.3.2 2.3.2v2.5h-1.3c-1.3 0-1.7.8-1.7 1.6V12h2.9l-.5 2.9h-2.4v7A10 10 0 0 0 22 12z"/>
-    </svg>
-    Facebook
+     target="_blank"
+     class="social-facebook"
+     aria-label="Facebook">
+    <i class="fa-brands fa-facebook-f"></i>
+  </a>
+
+  <!-- Website -->
+  <a href="https://pimaxtsabk.github.io"
+     target="_blank"
+     class="social-web"
+     aria-label="Website">
+    <i class="fa-solid fa-globe"></i>
   </a>
 </div>
+
+
+
 <style>
   .wrapper {
     max-width: 1400px !important;
