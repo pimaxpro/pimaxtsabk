@@ -383,7 +383,8 @@ layout: default
 
 <div class="contest-box">
    <div class="contest-title-box">
-      📢 THỂ LỆ CUỘC THI
+      <i class="fa-solid fa-bullhorn"></i>
+      THỂ LỆ CUỘC THI
    </div>
    <ol>
       <li>
@@ -408,7 +409,8 @@ layout: default
                diễn ra vào <strong>thứ 6 hàng tuần</strong>.
             </li>
          </ul>
-         👉 Lưu ý: Thí sinh cần đăng kí tài khoản trước tại 
+         <i class="fa-solid fa-hand-point-right"></i>
+          Lưu ý: Thí sinh cần đăng kí tài khoản trước tại
          <a href="https://pimaxtsa.com" target="_blank" rel="noopener">pimaxtsa.com</a>.
       </li>
       <li>
@@ -424,16 +426,16 @@ layout: default
          <div class="reward-block">
             <p><strong>a) Phần thưởng sau mỗi chặng (Top 3):</strong></p>
             <ul>
-               <li>🏆 <strong>Nhà vô địch:</strong> 1.000.000 VNĐ + Khóa học toàn diện PimaX</li>
+               <li><i class="fa-solid fa-trophy"></i> <strong>Nhà vô địch:</strong> 1.000.000 VNĐ + Khóa học toàn diện PimaX</li>
                <li>🥈🥉 <strong>Hai á quân:</strong> mỗi người 500.000 VNĐ + Khóa học toàn diện PimaX</li>
             </ul>
             <p><strong>b) Phần thưởng hàng tuần (Top 10):</strong></p>
             <ul>
                <li>
-                  ⭐ <strong>Top 2:</strong> 100.000 VNĐ + 10 đề TSA kèm video chữa + giảm 40% học phí
+                  <i class="fa-solid fa-star"></i> <strong>Top 2:</strong> 100.000 VNĐ + 10 đề TSA kèm video chữa + giảm 40% học phí
                </li>
                <li>
-                  🎯 <strong>Top 8 còn lại:</strong> 5 đề TSA kèm video chữa + giảm 30% học phí
+                  <i class="fa-solid fa-bullseye"></i> <strong>Top 8 còn lại:</strong> 5 đề TSA kèm video chữa + giảm 30% học phí
                </li>
             </ul>
          </div>
@@ -441,7 +443,7 @@ layout: default
    </ol>
 </div>
 <div class="register-box">
-   <h2>📝 ĐĂNG KÝ THAM GIA CUỘC THI</h2>
+   <h2><i class="fa-solid fa-pen-to-square"></i> ĐĂNG KÝ THAM GIA CUỘC THI</h2>
    <p>
       Thí sinh vui lòng đăng ký tài khoản và điền form trước khi tham gia
       các bài thi chính thức của PimaX TSABK Tournament. Thời gian đăng kí: Hết ngày 28/12/2025
@@ -449,7 +451,7 @@ layout: default
    <a href="https://docs.google.com/forms/d/1BGeWoQaCTOCkviJb8fbQ1kxnebybMEDUlZjp3HUO9ks/edit"
       target="_blank"
       rel="noopener">
-   👉 ĐI TỚI FORM ĐĂNG KÝ
+   <i class="fa-solid fa-hand-point-right"></i> ĐI TỚI FORM ĐĂNG KÝ
    </a>
 </div>
 <style>
