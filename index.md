@@ -423,10 +423,7 @@ layout: default
       </div>
     </div>
 
-  </div>
-</div>
-
-<div class="math-box">
+    <div class="math-box">
   <!-- PHẦN 1: BÀI TOÁN -->
   <div class="problem">
     <strong>Bài toán.</strong>
@@ -455,6 +452,11 @@ layout: default
     </div>
   </details>
 </div>
+
+
+  </div>
+</div>
+
 
 
 
