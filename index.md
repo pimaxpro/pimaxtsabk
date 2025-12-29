@@ -95,8 +95,8 @@ layout: default
    max-width: 1100px;
    margin: 70px auto;
    padding: 60px 30px 40px;
-   border: 4px solid #ec5b8c;
-   border-radius: 32px;
+   border: 2px solid #ec5b8c;
+   border-radius: 20px;
    background: #fff7fa;
    }
    /* BOX "NĂM 2025" */
