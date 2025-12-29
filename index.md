@@ -427,7 +427,7 @@ layout: default
             <p><strong>a) Phần thưởng sau mỗi chặng (Top 3):</strong></p>
             <ul>
                <li><i class="fa-solid fa-trophy"></i> <strong>Nhà vô địch:</strong> 1.000.000 VNĐ + Khóa học toàn diện PimaX</li>
-               <li>🥈🥉 <strong>Hai á quân:</strong> mỗi người 500.000 VNĐ + Khóa học toàn diện PimaX</li>
+               <li><i class="fa-solid fa-medal silver"></i> <strong>Hai á quân:</strong> mỗi người 500.000 VNĐ + Khóa học toàn diện PimaX</li>
             </ul>
             <p><strong>b) Phần thưởng hàng tuần (Top 10):</strong></p>
             <ul>
