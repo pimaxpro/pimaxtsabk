@@ -18,14 +18,14 @@ layout: default
   gap: 8px;
 
   padding: 10px 18px;
-  border-radius: 20px;
+  border-radius: 15px;
 
   background: #ffffff;
   border: 2px solid #cfcfcf;
 
   color: #777;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
   text-decoration: none;
 
   transition: all 0.25s ease;
