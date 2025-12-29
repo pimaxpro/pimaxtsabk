@@ -257,6 +257,37 @@ layout: default
    </div>
    <div class="week">
       <h2>📅 Tuần 1</h2>
+     </div>
+      <div class="item">
+         <div class="item">
+  <div class="week-buttons">
+
+    <a class="week-btn"
+       href="https://drive.google.com/file/d/1H2CbP2u8Hlc3arnnkYC01jx4E8Mk-o1K/view?usp=drive_link"
+       target="_blank" rel="noopener">
+      <i class="fa-regular fa-file-lines"></i> TEST 0
+    </a>
+
+    <a class="week-btn"
+       href="https://drive.google.com/file/d/1zEZQXB8WeTGvMpizUxK__h1Wg4whcP17/view?usp=drive_link"
+       target="_blank" rel="noopener">
+      <i class="fa-solid fa-pen"></i> BVT
+    </a>
+
+    <a class="week-btn"
+       href="https://drive.google.com/file/d/1u2dE0N0Ay4g0ylwstJg4l6T_j_s3eHJ5/view?usp=drive_link"
+       target="_blank" rel="noopener">
+      <i class="fa-solid fa-play"></i> Solution
+    </a>
+
+    <a class="week-btn"
+       href="https://docs.google.com/spreadsheets/d/1vtfoBgg8D5AyoK7CHxDtbjKM93db-22E/edit?usp=drive_link"
+       target="_blank" rel="noopener">
+      <i class="fa-solid fa-chart-column"></i> Ranking
+    </a>
+
+  </div>
+</div>
       <div class="item">
          <div class="item">
   <div class="week-buttons">
@@ -288,37 +319,7 @@ layout: default
   </div>
 </div>
 
-      </div>
-      <div class="item">
-         <div class="item">
-  <div class="week-buttons">
-
-    <a class="week-btn"
-       href="https://drive.google.com/file/d/1H2CbP2u8Hlc3arnnkYC01jx4E8Mk-o1K/view?usp=drive_link"
-       target="_blank" rel="noopener">
-      <i class="fa-regular fa-file-lines"></i> TEST 0
-    </a>
-
-    <a class="week-btn"
-       href="https://drive.google.com/file/d/1zEZQXB8WeTGvMpizUxK__h1Wg4whcP17/view?usp=drive_link"
-       target="_blank" rel="noopener">
-      <i class="fa-solid fa-pen"></i> BVT
-    </a>
-
-    <a class="week-btn"
-       href="https://drive.google.com/file/d/1u2dE0N0Ay4g0ylwstJg4l6T_j_s3eHJ5/view?usp=drive_link"
-       target="_blank" rel="noopener">
-      <i class="fa-solid fa-play"></i> Solution
-    </a>
-
-    <a class="week-btn"
-       href="https://docs.google.com/spreadsheets/d/1vtfoBgg8D5AyoK7CHxDtbjKM93db-22E/edit?usp=drive_link"
-       target="_blank" rel="noopener">
-      <i class="fa-solid fa-chart-column"></i> Ranking
-    </a>
-
-  </div>
-</div>
+      
 
       </div>
    </div>
