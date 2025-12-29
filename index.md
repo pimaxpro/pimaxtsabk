@@ -253,7 +253,16 @@ layout: default
    .item a:hover {
    text-decoration: underline;
    }
-  .week-badge {
+
+  .week-clean {
+  position: relative;
+  background: #f5f5f5;
+  border-radius: 32px;
+  padding: 80px 36px 36px;
+  margin: 40px 0;
+}
+
+    .week-badge {
   position: absolute;
   top: 0;
   left: 50%;
@@ -281,7 +290,6 @@ layout: default
   color: #333;
 }
 
-  
 </style>
 
 <div class="year-box">
@@ -292,7 +300,7 @@ layout: default
     <p> Diễn ra từ ngày 22/12/2025 </p>
   </div>
 
-  <div class="week">
+  <div class="week-clean">
      <div class="week-badge">
     <i class="fa-regular fa-calendar"></i>
     TUẦN 1
