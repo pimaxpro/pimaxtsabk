@@ -253,6 +253,34 @@ layout: default
    .item a:hover {
    text-decoration: underline;
    }
+  .week-badge {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+
+  padding: 14px 42px;
+  background: #f5f5f5;
+
+  border: 2px solid #333;
+  border-radius: 15px;
+
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #333;
+}
+
+/* Icon lịch */
+.week-badge i {
+  font-size: 26px;
+  color: #333;
+}
+
   
 </style>
 
@@ -265,7 +293,10 @@ layout: default
   </div>
 
   <div class="week">
-    <h2>📅 Tuần 1</h2>
+     <div class="week-badge">
+    <i class="fa-regular fa-calendar"></i>
+    TUẦN 1
+  </div>
 
     <!-- TEST 0 -->
     <div class="item">
