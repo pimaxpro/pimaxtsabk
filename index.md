@@ -253,18 +253,7 @@ layout: default
    .item a:hover {
    text-decoration: underline;
    }
-  .week h2 {
-  display: inline-block;
-  background: linear-gradient(135deg, #d83b6a, #ff7aa2);
-  color: white;
-  padding: 10px 26px;
-  border-radius: 999px;
-  font-size: 26px;
-  font-weight: 900;
-  margin: -52px auto 22px;
-  box-shadow: 0 10px 26px rgba(216, 59, 106, 0.45);
-}
-
+  
 </style>
 
 <div class="year-box">
