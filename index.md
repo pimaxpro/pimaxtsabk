@@ -249,71 +249,84 @@ layout: default
    text-decoration: underline;
    }
 </style>
+
 <div class="year-box">
-   <div class="year-title">📆 2025$-$2026</div>
-   <div class="stage">
-      <h1>☃️ Chặng 1$–$2025 WINTER</h1>
-      <p> Diễn ra từ ngày 22/12/2025 </p>
-   </div>
-   <div class="week">
-      <h2>📅 Tuần 1</h2>
-     </div>
-      <div class="item">
-  <div class="week-buttons">
+  <div class="year-title">📆 2025$-$2026</div>
 
-    <a class="week-btn"
-       href="https://drive.google.com/file/d/1H2CbP2u8Hlc3arnnkYC01jx4E8Mk-o1K/view?usp=drive_link"
-       target="_blank" rel="noopener">
-      <i class="fa-regular fa-file-lines"></i> TEST 0
-    </a>
+  <div class="stage">
+    <h1>☃️ Chặng 1$–$2025 WINTER</h1>
+    <p> Diễn ra từ ngày 22/12/2025 </p>
+  </div>
 
-    <a class="week-btn"
-       href="https://drive.google.com/file/d/1zEZQXB8WeTGvMpizUxK__h1Wg4whcP17/view?usp=drive_link"
-       target="_blank" rel="noopener">
-      <i class="fa-solid fa-pen"></i> BVT
-    </a>
+  <div class="week">
+    <h2>📅 Tuần 1</h2>
 
-    <a class="week-btn"
-       href="https://drive.google.com/file/d/1u2dE0N0Ay4g0ylwstJg4l6T_j_s3eHJ5/view?usp=drive_link"
-       target="_blank" rel="noopener">
-      <i class="fa-solid fa-play"></i> Solution
-    </a>
+    <!-- TEST 0 -->
+    <div class="item">
+      <div class="week-buttons">
 
-    <a class="week-btn"
-       href="https://docs.google.com/spreadsheets/d/1vtfoBgg8D5AyoK7CHxDtbjKM93db-22E/edit?usp=drive_link"
-       target="_blank" rel="noopener">
-      <i class="fa-solid fa-chart-column"></i> Ranking
-    </a>
+        <a class="week-btn"
+           href="https://drive.google.com/file/d/1H2CbP2u8Hlc3arnnkYC01jx4E8Mk-o1K/view?usp=drive_link"
+           target="_blank" rel="noopener">
+          <i class="fa-regular fa-file-lines"></i> TEST 0
+        </a>
+
+        <a class="week-btn"
+           href="https://drive.google.com/file/d/1zEZQXB8WeTGvMpizUxK__h1Wg4whcP17/view?usp=drive_link"
+           target="_blank" rel="noopener">
+          <i class="fa-solid fa-pen"></i> BVT
+        </a>
+
+        <a class="week-btn"
+           href="https://drive.google.com/file/d/1u2dE0N0Ay4g0ylwstJg4l6T_j_s3eHJ5/view?usp=drive_link"
+           target="_blank" rel="noopener">
+          <i class="fa-solid fa-play"></i> Solution
+        </a>
+
+        <a class="week-btn"
+           href="https://docs.google.com/spreadsheets/d/1vtfoBgg8D5AyoK7CHxDtbjKM93db-22E/edit?usp=drive_link"
+           target="_blank" rel="noopener">
+          <i class="fa-solid fa-chart-column"></i> Ranking
+        </a>
+
+      </div>
+    </div>
+
+    <!-- TEST 1 -->
+    <div class="item">
+      <div class="week-buttons">
+
+        <a class="week-btn"
+           href="https://drive.google.com/file/d/1YYJmNPRncCEiXGx31lsOFcATeE_KYcY_/view?usp=drive_link"
+           target="_blank" rel="noopener">
+          <i class="fa-regular fa-file-lines"></i> TEST 1
+        </a>
+
+        <a class="week-btn"
+           href="https://drive.google.com/file/d/1hzCNKgNaPXclUZ_OWSsFxd_fhjlfcz9j/view?usp=drive_link"
+           target="_blank" rel="noopener">
+          <i class="fa-solid fa-pen"></i> BVT
+        </a>
+
+        <a class="week-btn"
+           href="https://drive.google.com/file/d/1N0Iildna80-oA_f18lFmUOcZfVnUu-8k/view?usp=drive_link"
+           target="_blank" rel="noopener">
+          <i class="fa-solid fa-play"></i> Solution
+        </a>
+
+        <a class="week-btn"
+           href="https://docs.google.com/spreadsheets/d/1vtfoBgg8D5AyoK7CHxDtbjKM93db-22E/edit"
+           target="_blank" rel="noopener">
+          <i class="fa-solid fa-chart-column"></i> Ranking
+        </a>
+
+      </div>
+    </div>
+
+  </div>
 </div>
-      <div class="item">
-  <div class="week-buttons">
 
-    <a class="week-btn"
-       href="https://drive.google.com/file/d/1YYJmNPRncCEiXGx31lsOFcATeE_KYcY_/view?usp=drive_link"
-       target="_blank" rel="noopener">
-      <i class="fa-regular fa-file-lines"></i> TEST 1
-    </a>
 
-    <a class="week-btn"
-       href="https://drive.google.com/file/d/1hzCNKgNaPXclUZ_OWSsFxd_fhjlfcz9j/view?usp=drive_link"
-       target="_blank" rel="noopener">
-      <i class="fa-solid fa-pen"></i> BVT
-    </a>
-
-    <a class="week-btn"
-       href="https://drive.google.com/file/d/1N0Iildna80-oA_f18lFmUOcZfVnUu-8k/view?usp=drive_link"
-       target="_blank" rel="noopener">
-      <i class="fa-solid fa-play"></i> Solution
-    </a>
-
-    <a class="week-btn"
-       href="https://docs.google.com/spreadsheets/d/1vtfoBgg8D5AyoK7CHxDtbjKM93db-22E/edit"
-       target="_blank" rel="noopener">
-      <i class="fa-solid fa-chart-column"></i> Ranking
-    </a>
-</div>
-   </div>
-</div>
 <div class="contest-box">
    <div class="contest-title-box">
       📢 THỂ LỆ CUỘC THI
