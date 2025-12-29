@@ -343,8 +343,9 @@ layout: default
 </style>
 
 <div class="year-box">
+
   <div class="year-title">
-  <i class="fa-solid fa-calendar-check"></i> 2025$-$2026
+    <i class="fa-solid fa-calendar-check"></i> 2025$-$2026
   </div>
 
   <div class="stage">
@@ -352,19 +353,19 @@ layout: default
       <i class="fa-solid fa-snowman"></i>
       Chặng 1$–$2025 WINTER
     </h1>
-    <p> Diễn ra từ ngày 22/12/2025 </p>
+    <p>Diễn ra từ ngày 22/12/2025</p>
   </div>
 
+  <!-- ================= TUẦN 1 ================= -->
   <div class="week-clean">
-     <div class="week-badge">
-    <i class="fa-regular fa-calendar"></i>
-    TUẦN 1
-  </div>
+    <div class="week-badge">
+      <i class="fa-regular fa-calendar"></i>
+      TUẦN 1
+    </div>
 
     <!-- TEST 0 -->
     <div class="item">
       <div class="week-buttons">
-
         <a class="week-btn"
            href="https://drive.google.com/file/d/1H2CbP2u8Hlc3arnnkYC01jx4E8Mk-o1K/view?usp=drive_link"
            target="_blank" rel="noopener">
@@ -388,14 +389,12 @@ layout: default
            target="_blank" rel="noopener">
           <i class="fa-solid fa-chart-column"></i> Ranking
         </a>
-
       </div>
     </div>
 
     <!-- TEST 1 -->
     <div class="item">
       <div class="week-buttons">
-
         <a class="week-btn"
            href="https://drive.google.com/file/d/1YYJmNPRncCEiXGx31lsOFcATeE_KYcY_/view?usp=drive_link"
            target="_blank" rel="noopener">
@@ -419,35 +418,43 @@ layout: default
            target="_blank" rel="noopener">
           <i class="fa-solid fa-chart-column"></i> Ranking
         </a>
-
       </div>
     </div>
-
-    <div class="math-box">
-  <!-- PHẦN 1: BÀI TOÁN -->
-  <div class="problem">
-    <strong>Bài toán hay.</strong>
-    <p>
-      Số bộ số nguyên $(a, b, c)$ thỏa mãn $(-a+b+c)(a-b+c)(a+b-c)=2^{100}\cdot 3^{101}$ là?
-    </p>
   </div>
 
-  <!-- PHẦN 2: LỜI GIẢI -->
-  <details class="solution-box">
-    <summary>
-      <i class="fa-solid fa-lightbulb"></i> Solution
-    </summary>
-
-    <div class="solution">
-      <p>
-        Ta có số bộ số thỏa mãn là $\dbinom{99}{2}\times\dbinom{103}{2}$.
-      </p>
+  <!-- ================= TUẦN 2 ================= -->
+  <div class="week-clean">
+    <div class="week-badge">
+      <i class="fa-regular fa-calendar"></i>
+      TUẦN 2
     </div>
-  </details>
-</div>
 
+    <!-- TEST 2 -->
+    <div class="item">
+      <div class="week-buttons">
+        <a class="week-btn"
+           href="https://drive.google.com/file/d/1WrEQrZNa-oTIhScnC0zbi5FD_giAlPdq/view?usp=drive_link"
+           target="_blank" rel="noopener">
+          <i class="fa-regular fa-file-lines"></i> TEST 2
+        </a>
 
+        <a class="week-btn" href="" target="_blank" rel="noopener">
+          <i class="fa-solid fa-pen"></i> BVT
+        </a>
+
+        <a class="week-btn" href="" target="_blank" rel="noopener">
+          <i class="fa-solid fa-play"></i> Solution
+        </a>
+
+        <a class="week-btn"
+           href="https://docs.google.com/spreadsheets/d/1wgik9x8kiwH3IeW7cJDGADbhNYe0wk_V/edit?usp=drive_link"
+           target="_blank" rel="noopener">
+          <i class="fa-solid fa-chart-column"></i> Ranking
+        </a>
+      </div>
+    </div>
   </div>
+
 </div>
 
 
