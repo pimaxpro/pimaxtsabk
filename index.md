@@ -50,6 +50,52 @@ layout: default
 .week-btn:hover {
   text-decoration: none !important;
 }
+.math-box {
+  border: 2px solid #444;
+  border-radius: 12px;
+  padding: 16px 18px;
+  background: #fafafa;
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+/* PHẦN BÀI TOÁN */
+.problem {
+  margin-bottom: 12px;
+}
+
+/* SOLUTION */
+.solution-box summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #333;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* bỏ mũi tên mặc định */
+.solution-box summary::-webkit-details-marker {
+  display: none;
+}
+
+.solution-box summary::after {
+  content: "▼";
+  margin-left: auto;
+  transition: transform 0.25s ease;
+}
+
+.solution-box[open] summary::after {
+  transform: rotate(180deg);
+}
+
+.solution {
+  margin-top: 12px;
+  padding-left: 6px;
+  border-left: 3px solid #555;
+}
+
 </style>
 <style>
    .social-drive {
@@ -379,6 +425,37 @@ layout: default
 
   </div>
 </div>
+
+<div class="math-box">
+  <!-- PHẦN 1: BÀI TOÁN -->
+  <div class="problem">
+    <strong>Bài toán.</strong>
+    <p>
+      Tìm tất cả các số thực \(x\) thỏa mãn
+      \[
+        x^2 - 3x + 2 = 0.
+      \]
+    </p>
+  </div>
+
+  <!-- PHẦN 2: LỜI GIẢI -->
+  <details class="solution-box">
+    <summary>
+      <i class="fa-solid fa-lightbulb"></i> Solution
+    </summary>
+
+    <div class="solution">
+      <p>
+        Ta có:
+        \[
+          x^2 - 3x + 2 = (x-1)(x-2).
+        \]
+        Do đó \(x = 1\) hoặc \(x = 2\).
+      </p>
+    </div>
+  </details>
+</div>
+
 
 
 <div class="contest-box">
