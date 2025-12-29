@@ -312,7 +312,6 @@ layout: default
       <i class="fa-solid fa-chart-column"></i> Ranking
     </a>
 </div>
-      </div>
    </div>
 </div>
 <div class="contest-box">
