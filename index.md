@@ -426,12 +426,9 @@ layout: default
     <div class="math-box">
   <!-- PHẦN 1: BÀI TOÁN -->
   <div class="problem">
-    <strong>Bài toán.</strong>
+    <strong>Bài toán hay.</strong>
     <p>
-      Tìm tất cả các số thực \(x\) thỏa mãn
-      \[
-        x^2 - 3x + 2 = 0.
-      \]
+      Số bộ số nguyên $(a, b, c)$ thỏa mãn $(-a+b+c)(a-b+c)(a+b-c)=2^{100}\cdot 3^{101}$ là?
     </p>
   </div>
 
@@ -443,11 +440,7 @@ layout: default
 
     <div class="solution">
       <p>
-        Ta có:
-        \[
-          x^2 - 3x + 2 = (x-1)(x-2).
-        \]
-        Do đó \(x = 1\) hoặc \(x = 2\).
+        Ta có số bộ số thỏa mãn là $\dbinom{99}{2}\times\dbinom{103}{2}$.
       </p>
     </div>
   </details>
