@@ -289,6 +289,9 @@ layout: default
   font-size: 26px;
   color: #333;
 }
+  .week-badge {
+  top: 20px;  /* mặc định là 0 */
+}
 
 </style>
 
