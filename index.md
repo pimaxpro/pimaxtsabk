@@ -259,7 +259,6 @@ layout: default
       <h2>📅 Tuần 1</h2>
      </div>
       <div class="item">
-         <div class="item">
   <div class="week-buttons">
 
     <a class="week-btn"
@@ -285,11 +284,8 @@ layout: default
        target="_blank" rel="noopener">
       <i class="fa-solid fa-chart-column"></i> Ranking
     </a>
-
-  </div>
 </div>
       <div class="item">
-         <div class="item">
   <div class="week-buttons">
 
     <a class="week-btn"
@@ -315,12 +311,7 @@ layout: default
        target="_blank" rel="noopener">
       <i class="fa-solid fa-chart-column"></i> Ranking
     </a>
-
-  </div>
 </div>
-
-      
-
       </div>
    </div>
 </div>
