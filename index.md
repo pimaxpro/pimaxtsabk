@@ -256,7 +256,8 @@ layout: default
 
   .week-clean {
   position: relative;
-  background: #f5f5f5;
+  background: #FAE2E9;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.10);
   border-radius: 32px;
   padding: 80px 36px 36px;
   margin: 40px 0;
@@ -290,7 +291,7 @@ layout: default
   color: #333;
 }
   .week-badge {
-  top: 20px;  /* mặc định là 0 */
+  top: 40px;  /* mặc định là 0 */
 }
 
 </style>
