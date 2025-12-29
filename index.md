@@ -297,7 +297,9 @@ layout: default
 </style>
 
 <div class="year-box">
-  <div class="year-title">📆 2025$-$2026</div>
+  <div class="year-title">
+  <i class="fa-solid fa-calendar-check"></i> 2025$-$2026
+  </div>
 
   <div class="stage">
     <h1>☃️ Chặng 1$–$2025 WINTER</h1>
