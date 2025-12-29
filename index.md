@@ -45,6 +45,11 @@ layout: default
   box-shadow: 0 8px 20px rgba(216, 59, 106, 0.45);
   transform: translateY(-2px);
 }
+
+.week-btn,
+.week-btn:hover {
+  text-decoration: none !important;
+}
 </style>
 <style>
    .social-drive {
