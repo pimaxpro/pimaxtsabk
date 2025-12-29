@@ -273,13 +273,13 @@ layout: default
   align-items: center;
   gap: 12px;
 
-  padding: 14px 42px;
-  background: #f5f5f5;
+  padding: 12px 36px;
+  background: #FAE2E9;
 
   border: 2px solid #333;
   border-radius: 15px;
 
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 800;
   letter-spacing: 1px;
   color: #333;
@@ -291,7 +291,7 @@ layout: default
   color: #333;
 }
   .week-badge {
-  top: 550px;  /* mặc định là 0 */
+  top: 55px;  /* mặc định là 0 */
 }
 
 </style>
