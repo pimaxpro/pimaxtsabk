@@ -291,7 +291,7 @@ layout: default
   color: #333;
 }
   .week-badge {
-  top: 40px;  /* mặc định là 0 */
+  top: 550px;  /* mặc định là 0 */
 }
 
 </style>
