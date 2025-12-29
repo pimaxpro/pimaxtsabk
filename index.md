@@ -2,6 +2,50 @@
 title: PimaX Pro
 layout: default
 ---
+
+<style>
+/* ===== BUTTON TRONG TUẦN ===== */
+.week-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 6px;
+}
+
+.week-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 10px 18px;
+  border-radius: 999px;
+
+  background: #ffffff;
+  border: 2px solid #cfcfcf;
+
+  color: #777;
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration: none;
+
+  transition: all 0.25s ease;
+}
+
+.week-btn i {
+  font-size: 16px;
+  color: inherit;
+}
+
+/* Hover */
+.week-btn:hover {
+  background: #d83b6a;
+  border-color: #d83b6a;
+  color: #ffffff;
+
+  box-shadow: 0 8px 20px rgba(216, 59, 106, 0.45);
+  transform: translateY(-2px);
+}
+</style>
 <style>
    .social-drive {
    background: #000000;
@@ -214,32 +258,68 @@ layout: default
    <div class="week">
       <h2>📅 Tuần 1</h2>
       <div class="item">
-         📄 <a href="https://drive.google.com/file/d/1H2CbP2u8Hlc3arnnkYC01jx4E8Mk-o1K/view?usp=drive_link" target="_blank" rel="noopener">
-         TEST 0
-         </a>
-         &nbsp; | ✍️ <a href="https://drive.google.com/file/d/1zEZQXB8WeTGvMpizUxK__h1Wg4whcP17/view?usp=drive_link" target="_blank" rel="noopener">
-         BVT
-         </a>
-         | 🎥 <a href="https://drive.google.com/file/d/1u2dE0N0Ay4g0ylwstJg4l6T_j_s3eHJ5/view?usp=drive_link" target="_blank" rel="noopener">
-         Solution
-         </a>
-         &nbsp; | 📊 <a href="https://docs.google.com/spreadsheets/d/1vtfoBgg8D5AyoK7CHxDtbjKM93db-22E/edit?usp=drive_link&ouid=113352121122805653305&rtpof=true&sd=true" target="_blank" rel="noopener">
-         Ranking
-         </a>
+         <div class="item">
+  <div class="week-buttons">
+
+    <a class="week-btn"
+       href="https://drive.google.com/file/d/1YYJmNPRncCEiXGx31lsOFcATeE_KYcY_/view?usp=drive_link"
+       target="_blank" rel="noopener">
+      <i class="fa-regular fa-file-lines"></i> TEST 1
+    </a>
+
+    <a class="week-btn"
+       href="https://drive.google.com/file/d/1hzCNKgNaPXclUZ_OWSsFxd_fhjlfcz9j/view?usp=drive_link"
+       target="_blank" rel="noopener">
+      <i class="fa-solid fa-pen"></i> BVT
+    </a>
+
+    <a class="week-btn"
+       href="https://drive.google.com/file/d/1N0Iildna80-oA_f18lFmUOcZfVnUu-8k/view?usp=drive_link"
+       target="_blank" rel="noopener">
+      <i class="fa-solid fa-play"></i> Solution
+    </a>
+
+    <a class="week-btn"
+       href="https://docs.google.com/spreadsheets/d/1vtfoBgg8D5AyoK7CHxDtbjKM93db-22E/edit"
+       target="_blank" rel="noopener">
+      <i class="fa-solid fa-chart-column"></i> Ranking
+    </a>
+
+  </div>
+</div>
+
       </div>
       <div class="item">
-         📄 <a href="https://drive.google.com/file/d/1YYJmNPRncCEiXGx31lsOFcATeE_KYcY_/view?usp=drive_link" target="_blank" rel="noopener">
-         TEST 1
-         </a>
-         &nbsp; | ✍️ <a href="https://drive.google.com/file/d/1hzCNKgNaPXclUZ_OWSsFxd_fhjlfcz9j/view?usp=drive_link" target="_blank" rel="noopener">
-         BVT
-         </a>
-         | 🎥 <a href="https://drive.google.com/file/d/1N0Iildna80-oA_f18lFmUOcZfVnUu-8k/view?usp=drive_link" target="_blank" rel="noopener">
-         Solution
-         </a>
-         &nbsp; | 📊 <a href="https://docs.google.com/spreadsheets/d/1vtfoBgg8D5AyoK7CHxDtbjKM93db-22E/edit?usp=drive_link&ouid=113352121122805653305&rtpof=true&sd=true" target="_blank" rel="noopener">
-         Ranking
-         </a>
+         <div class="item">
+  <div class="week-buttons">
+
+    <a class="week-btn"
+       href="https://drive.google.com/file/d/1H2CbP2u8Hlc3arnnkYC01jx4E8Mk-o1K/view?usp=drive_link"
+       target="_blank" rel="noopener">
+      <i class="fa-regular fa-file-lines"></i> TEST 0
+    </a>
+
+    <a class="week-btn"
+       href="https://drive.google.com/file/d/1zEZQXB8WeTGvMpizUxK__h1Wg4whcP17/view?usp=drive_link"
+       target="_blank" rel="noopener">
+      <i class="fa-solid fa-pen"></i> BVT
+    </a>
+
+    <a class="week-btn"
+       href="https://drive.google.com/file/d/1u2dE0N0Ay4g0ylwstJg4l6T_j_s3eHJ5/view?usp=drive_link"
+       target="_blank" rel="noopener">
+      <i class="fa-solid fa-play"></i> Solution
+    </a>
+
+    <a class="week-btn"
+       href="https://docs.google.com/spreadsheets/d/1vtfoBgg8D5AyoK7CHxDtbjKM93db-22E/edit?usp=drive_link"
+       target="_blank" rel="noopener">
+      <i class="fa-solid fa-chart-column"></i> Ranking
+    </a>
+
+  </div>
+</div>
+
       </div>
    </div>
 </div>
