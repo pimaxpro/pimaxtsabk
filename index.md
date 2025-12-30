@@ -438,7 +438,7 @@ layout: default
           <i class="fa-regular fa-file-lines"></i> TEST 2
         </a>
 
-        <a class="week-btn" href="" target="_blank" rel="noopener">
+        <a class="week-btn" href="https://drive.google.com/file/d/1d_k41_QtDxnPhLn8qPCM0FczoTHWqwXS/view?usp=drive_link" target="_blank" rel="noopener">
           <i class="fa-solid fa-pen"></i> BVT
         </a>
 
