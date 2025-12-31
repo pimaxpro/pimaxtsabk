@@ -1,55 +1,36 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: 'vi' }}">
+<html lang="vi">
 <head>
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-  crossorigin="anonymous"
-  />
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-  integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-  crossorigin="anonymous"
-  referrerpolicy="no-referrer"
-  />
   <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
+  <title>PIMAX TSA</title>
 
-  <!-- Load CSS của theme -->
-  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/custom.css' | relative_url }}">
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../assets/css/style.css">
 
   <!-- MathJax -->
   <script>
-    MathJax = {
+    window.MathJax = {
       tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']],
-        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        inlineMath: [['\\(', '\\)']],
+        displayMath: [['$$', '$$']]
       },
       svg: { fontCache: 'global' }
     };
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+  <script async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+  </script>
 </head>
 
 <body>
 
-  <!-- HEADER -->
-  <header class="site-header">
-    <div class="wrapper">
-      <a class="site-title" href="{{ '/' | relative_url }}">
-        {{ site.title }}
-      </a>
-    </div>
-  </header>
+  <main id="content"></main>
 
-  <!-- CONTENT -->
-  <main class="page-content">
-    <div class="wrapper">
-      {{ content }}
-    </div>
-  </main>
-
+  <script src="../assets/js/layout.js"></script>
+  <script src="../assets/js/main.js"></script>
 </body>
 </html>
