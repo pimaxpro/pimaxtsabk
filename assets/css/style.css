@@ -282,6 +282,9 @@ a:hover {
 }
 
 /* ===== BUTTON TRONG TUẦN ===== */
+
+
+
 .week-buttons {
   display: flex;
   flex-wrap: wrap;
@@ -300,7 +303,7 @@ a:hover {
   background: #ffffff;
   border: 2px solid #cfcfcf;
 
-  color: #777;
+  color: #333333;            /* ← xám đen */
   font-weight: 700;
   font-size: 18px;
   text-decoration: none;
@@ -310,23 +313,28 @@ a:hover {
 
 .week-btn i {
   font-size: 16px;
-  color: #333333;
+  color: #444444;            /* ← icon hơi nhạt hơn chữ */
 }
 
 /* Hover */
 .week-btn:hover {
   background: #d83b6a;
   border-color: #d83b6a;
-  color: #ffffff;
+  color: #ffffff;            /* chữ trắng */
 
   box-shadow: 0 8px 20px rgba(216, 59, 106, 0.45);
   transform: translateY(-2px);
+}
+
+.week-btn:hover i {
+  color: #ffffff;            /* icon cũng trắng khi hover */
 }
 
 .week-btn,
 .week-btn:hover {
   text-decoration: none !important;
 }
+
 .math-box {
   border: 2px solid #444;
   border-radius: 12px;
