@@ -130,6 +130,61 @@
       </a>
     </div>
     <br>
+
+  .quote-wrapper {
+  display: flex;
+  justify-content: center;   /* căn giữa trang */
+  margin: 40px 0;
+}
+
+.quote-box {
+  position: relative;
+  max-width: 700px;
+  padding: 32px 36px 28px 64px;
+
+  border: 1.5px solid #666;
+  border-radius: 10px;
+
+  background: #fafafa;
+  color: #444;
+
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+.quote-mark {
+  position: absolute;
+  top: 12px;
+  left: 20px;
+
+  font-size: 72px;          /* dấu " rất to */
+  line-height: 1;
+  font-weight: bold;
+
+  color: var(--accent-color);
+}
+
+.quote-author {
+  margin-top: 18px;
+  text-align: right;        /* ký tên bên phải */
+  font-size: 16px;
+  color: #666;
+  font-style: italic;
+}
+
+  <div class="quote-wrapper">
+  <div class="quote-box">
+    <span class="quote-mark">“</span>
+    <div class="quote-text">
+      Pure mathematics is, in its way, the poetry of logical ideas.
+    </div>
+    <div class="quote-author">
+      — Albert Einstein
+    </div>
+  </div>
+  </div>
+
+  
   <!-- INTRO -->
   <section class="intro">
 
@@ -261,6 +316,7 @@
 
 </body>
 </html>
+
 
 
 
