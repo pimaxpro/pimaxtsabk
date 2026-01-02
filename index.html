@@ -38,43 +38,6 @@
   </nav>
 </div>
 
-<script>
-  // Khi bấm ra ngoài menu, đóng menu
-  document.addEventListener('click', function(e) {
-    const menuDropdown = document.querySelector('.menu-dropdown');
-    const checkbox = document.getElementById('menu-toggle');
-    
-    if (checkbox.checked && !menuDropdown.contains(e.target)) {
-      checkbox.checked = false;
-    }
-  });
-</script>
-
-  <!-- HERO -->
-  <section class="hero">
-    <h1>
-      <a href="https://pimaxpro.github.io/pimaxtsabk/" class="hero-title-link">
-        PimaX TSABK Tournament
-      </a>
-    </h1>
-    <p class="hero-sub">
-      Mathematical Thinking • TSA Training • Problem Solving
-    </p>
-
-    <div class="hero-actions">
-      <a href="2025-2026.html" class="btn primary">
-        <i class="fa-solid fa-calendar-check"></i>
-        Chặng đua 2025-2026
-      </a>
-
-      <a href="https://pimaxtsa.com/" class="btn ghost" target="_blank" rel="noopener">
-      <i class="fa-solid fa-book-open"></i>
-      Phòng luyện đề
-    </a>
-
-    </div>
-  </section>
-
   <style>
     :root {
   --accent-color: #D83B6A;
@@ -90,14 +53,14 @@
   align-items: center;
   gap: 16px;
 
-  padding: 12px 22px; 
-  border: 1px solid #666;
+  padding: 8px 15px; 
+  border: 10px solid #666;
   border-radius: 6px;
 
   color: #555;              /* đen xám */
   background: transparent;
 
-  font-size: 28px;
+  font-size: 20px;
   text-decoration: none;
   font-weight: 500;
 
@@ -123,28 +86,59 @@
   opacity: 1;
 }
   </style>
-  <div class="social-wrapper">
-  <a href="https://www.tiktok.com/@yourusername"
-     target="_blank"
-     class="social-card"
-     aria-label="TikTok">
-    <i class="fa-brands fa-tiktok"></i>
-    <span class="divider">|</span>
-    <span class="label">TikTok</span>
-  </a>
 
-  <a href="https://www.facebook.com/yourusername"
-     target="_blank"
-     class="social-card"
-     aria-label="Facebook">
-    <i class="fa-brands fa-facebook-f"></i>
-    <span class="divider">|</span>
-    <span class="label">Facebook</span>
-  </a>
-</div>
+<script>
+  // Khi bấm ra ngoài menu, đóng menu
+  document.addEventListener('click', function(e) {
+    const menuDropdown = document.querySelector('.menu-dropdown');
+    const checkbox = document.getElementById('menu-toggle');
+    
+    if (checkbox.checked && !menuDropdown.contains(e.target)) {
+      checkbox.checked = false;
+    }
+  });
+</script>
 
+  <!-- HERO -->
+  <section class="hero">
+    <h1>
+      <a href="https://pimaxpro.github.io/pimaxtsabk/" class="hero-title-link">
+        PimaX TSABK Tournament
+      </a>
+    </h1>
+      <div class="social-wrapper">
+      <a href="https://www.tiktok.com/@yourusername"
+         target="_blank"
+         class="social-card"
+         aria-label="TikTok">
+        <i class="fa-brands fa-tiktok"></i>
+        <span class="divider">|</span>
+        <span class="label">TikTok</span>
+      </a>
+    
+      <a href="https://www.facebook.com/yourusername"
+         target="_blank"
+         class="social-card"
+         aria-label="Facebook">
+        <i class="fa-brands fa-facebook-f"></i>
+        <span class="divider">|</span>
+        <span class="label">Facebook</span>
+      </a>
+    </div>
 
+    <div class="hero-actions">
+      <a href="2025-2026.html" class="btn primary">
+        <i class="fa-solid fa-calendar-check"></i>
+        Chặng đua 2025-2026
+      </a>
 
+      <a href="https://pimaxtsa.com/" class="btn ghost" target="_blank" rel="noopener">
+      <i class="fa-solid fa-book-open"></i>
+      Phòng luyện đề
+    </a>
+
+    </div>
+  </section>
   <!-- INTRO -->
   <section class="intro">
 
@@ -264,6 +258,7 @@
 
 </body>
 </html>
+
 
 
 
