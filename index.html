@@ -96,16 +96,20 @@
     .social-card:hover .divider {
       opacity: 1;
     }
-  .quote-wrapper {
+  :root {
+  --accent-color: #e85b8a; /* màu hồng bạn đang dùng */
+}
+
+.quote-wrapper {
   display: flex;
-  justify-content: center;   /* căn giữa trang */
+  justify-content: center;
   margin: 40px 0;
 }
 
 .quote-box {
   position: relative;
-  max-width: 700px;
-  padding: 32px 36px 28px 64px;
+  max-width: 720px;
+  padding: 34px 38px 28px 68px;
 
   border: 1.5px solid #666;
   border-radius: 10px;
@@ -119,23 +123,45 @@
 
 .quote-mark {
   position: absolute;
-  top: 12px;
-  left: 20px;
+  top: 14px;
+  left: 22px;
 
-  font-size: 72px;          /* dấu " rất to */
+  font-size: 72px;
   line-height: 1;
   font-weight: bold;
 
   color: var(--accent-color);
 }
 
+.quote-text {
+  font-style: italic;     /* in nghiêng nội dung */
+}
+
 .quote-author {
-  margin-top: 18px;
-  text-align: right;        /* ký tên bên phải */
+  margin-top: 22px;
+  padding-top: 14px;
+
+  text-align: right;
   font-size: 16px;
   color: #666;
   font-style: italic;
+
+  position: relative;
 }
+
+.quote-author::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 60%;
+  height: 1px;
+
+  background: rgba(0, 0, 0, 0.15);
+}
+
+
   </style>
 
   <section class="hero">
@@ -316,6 +342,7 @@
 
 </body>
 </html>
+
 
 
 
