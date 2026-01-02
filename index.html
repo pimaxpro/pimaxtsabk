@@ -75,6 +75,61 @@
     </div>
   </section>
 
+  <style>
+.social-links {
+  display: flex;
+  gap: 8px;
+}
+
+.social-btn {
+  width: 32px;
+  height: 32px;
+
+  border: 1px solid #666;
+  border-radius: 6px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #555;          /* xám đậm */
+  background: transparent;
+
+  font-size: 15px;
+  text-decoration: none;
+
+  transition: 
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+/* hover: nền hồng – chữ trắng */
+.social-btn:hover {
+  background-color: var(--accent-color);
+  color: #fff;
+  border-color: var(--accent-color);
+}
+
+
+</style>
+<div class="social-links">
+  <a href="https://www.tiktok.com/@yourusername"
+     target="_blank"
+     class="social-btn"
+     aria-label="TikTok">
+    <i class="fa-brands fa-tiktok"></i>
+  </a>
+
+  <a href="https://www.facebook.com/yourusername"
+     target="_blank"
+     class="social-btn"
+     aria-label="Facebook">
+    <i class="fa-brands fa-facebook-f"></i>
+  </a>
+</div>
+
+
   <!-- INTRO -->
   <section class="intro">
 
@@ -194,6 +249,7 @@
 
 </body>
 </html>
+
 
 
 
