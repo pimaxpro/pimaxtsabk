@@ -76,27 +76,27 @@
   </section>
 
   <style>
-.social-links {
+    .social-wrapper {
   display: flex;
-  gap: 8px;
+  justify-content: center;   /* căn giữa */
+  gap: 12px;
 }
 
-.social-btn {
-  width: 32px;
-  height: 32px;
+.social-card {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
 
+  padding: 6px 12px;
   border: 1px solid #666;
   border-radius: 6px;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  color: #555;          /* xám đậm */
+  color: #555;              /* đen xám */
   background: transparent;
 
-  font-size: 15px;
+  font-size: 14px;
   text-decoration: none;
+  font-weight: 500;
 
   transition: 
     background-color 0.2s ease,
@@ -104,30 +104,43 @@
     border-color 0.2s ease;
 }
 
-/* hover: nền hồng – chữ trắng */
-.social-btn:hover {
+.social-card .divider {
+  opacity: 0.6;
+}
+
+/* hover: full hồng – chữ trắng */
+.social-card:hover {
   background-color: var(--accent-color);
   color: #fff;
   border-color: var(--accent-color);
 }
 
+/* đảm bảo icon + dấu | + chữ đều trắng */
+.social-card:hover .divider {
+  opacity: 1;
+}
 
-</style>
-<div class="social-links">
+  </style>
+  <div class="social-wrapper">
   <a href="https://www.tiktok.com/@yourusername"
      target="_blank"
-     class="social-btn"
+     class="social-card"
      aria-label="TikTok">
     <i class="fa-brands fa-tiktok"></i>
+    <span class="divider">|</span>
+    <span class="label">TikTok</span>
   </a>
 
   <a href="https://www.facebook.com/yourusername"
      target="_blank"
-     class="social-btn"
+     class="social-card"
      aria-label="Facebook">
     <i class="fa-brands fa-facebook-f"></i>
+    <span class="divider">|</span>
+    <span class="label">Facebook</span>
   </a>
 </div>
+
 
 
   <!-- INTRO -->
@@ -249,6 +262,7 @@
 
 </body>
 </html>
+
 
 
 
