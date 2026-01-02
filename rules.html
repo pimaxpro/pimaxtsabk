@@ -28,8 +28,57 @@
     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
   </script>
 </head>
-
 <body>
+
+<style>
+    :root {
+  --accent-color: #D83B6A;
+    }
+    .social-wrapper {
+      display: flex;
+      justify-content: center;   /* căn giữa */
+      gap: 12px;
+    }
+    
+    .social-card {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    
+      padding: 6px 12px;
+      border: 1px solid #666;
+      border-radius: 6px;
+    
+      color: #555;              /* đen xám */
+      background: transparent;
+    
+      font-size: 14px;
+      text-decoration: none;
+      font-weight: 500;
+    
+      transition: 
+        background-color 0.2s ease,
+        color 0.2s ease,
+        border-color 0.2s ease;
+    }
+    
+    .social-card .divider {
+      opacity: 0.6;
+    }
+    
+    /* hover: full hồng – chữ trắng */
+    .social-card:hover {
+      background-color: var(--accent-color);
+      color: #fff;
+      border-color: var(--accent-color);
+    }
+    
+    /* đảm bảo icon + dấu | + chữ đều trắng */
+    .social-card:hover .divider {
+      opacity: 1;
+    }
+  </style>
+  
 <div id="page-content">
   <section class="hero">
     <h1>
@@ -40,6 +89,28 @@
       Mathematical Thinking • TSA Training • Problem Solving
       </p>
     </h1>
+        <div class="social-wrapper">
+      <a href="https://www.tiktok.com/@pimaxghettoan"
+         target="_blank"
+         rel="noopener"
+         class="social-card"
+         aria-label="TikTok">
+        <i class="fa-brands fa-tiktok"></i>
+        <span class="divider">|</span>
+        <span class="label">TikTok</span>
+      </a>
+    
+      <a href="https://www.facebook.com/PimaXPro"
+         target="_blank"
+         rel="noopener"
+         class="social-card"
+         aria-label="Facebook">
+        <i class="fa-brands fa-facebook-f"></i>
+        <span class="divider">|</span>
+        <span class="label">Facebook</span>
+      </a>
+    </div>
+    <br>
   </section>
   
 <div class="menu-dropdown">
