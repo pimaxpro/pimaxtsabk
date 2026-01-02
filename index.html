@@ -38,6 +38,19 @@
   </nav>
 </div>
 
+<script>
+  // Khi bấm ra ngoài menu, đóng menu
+  document.addEventListener('click', function(e) {
+    const menuDropdown = document.querySelector('.menu-dropdown');
+    const checkbox = document.getElementById('menu-toggle');
+    
+    if (checkbox.checked && !menuDropdown.contains(e.target)) {
+      checkbox.checked = false;
+    }
+  });
+</script>
+
+
   <style>
     :root {
   --accent-color: #D83B6A;
@@ -87,19 +100,6 @@
     }
   </style>
 
-<script>
-  // Khi bấm ra ngoài menu, đóng menu
-  document.addEventListener('click', function(e) {
-    const menuDropdown = document.querySelector('.menu-dropdown');
-    const checkbox = document.getElementById('menu-toggle');
-    
-    if (checkbox.checked && !menuDropdown.contains(e.target)) {
-      checkbox.checked = false;
-    }
-  });
-</script>
-
-  <!-- HERO -->
   <section class="hero">
     <h1>
       <a href="https://pimaxpro.github.io/pimaxtsabk/" class="hero-title-link">
@@ -265,6 +265,7 @@
 
 </body>
 </html>
+
 
 
 
